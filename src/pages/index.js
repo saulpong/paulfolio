@@ -194,12 +194,12 @@ export default class IndexPage extends React.Component {
                   and we will get back to you as soon as possible!</p>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+            <div className="row justify-content-center">
+              {/* <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                 <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
                 <div>+1 (202) 555-0149</div>
-              </div>
-              <div className="col-lg-4 mr-auto text-center">
+              </div> */}
+              <div className="col-lg-8 text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
                 <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
               </div>
