@@ -1,7 +1,8 @@
 export default class Scroller {
   static handleAnchorScroll(e) {
     e.preventDefault();
-    const element = e.target;
+    e.stopPropagation();
+    const element = e.currentTarget;
     const id = element.getAttribute('href');
     const document = element.ownerDocument.scrollingElement || element.ownerDocument.documentElement;
     const scrollNode = document.querySelector(id);

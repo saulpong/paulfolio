@@ -37,24 +37,6 @@ export default class IndexPage extends React.Component {
       <Layout>
         <SEO title="Portfolio"/>
 
-        <section className="page-section bg-primary" id="about">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
-                <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
-                <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                  onClick={Scroller.handleAnchorScroll}>Get Started!</a>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section id="portfolio">
           <div className="container-fluid p-0">
             <div className="row no-gutters">
@@ -140,7 +122,25 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section" id="services">
+        <section className="page-section bg-primary" id="about">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-8 text-center">
+                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <hr className="divider light my-4"/>
+                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
+                  and
+                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
+                  strings
+                  attached!</p>
+                <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
+                  onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* <section className="page-section" id="services">
           <div className="container">
             <h2 className="text-center mt-0">At Your Service</h2>
             <hr className="divider my-4"/>
@@ -182,7 +182,7 @@ export default class IndexPage extends React.Component {
             <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
             <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
           </div>
-        </section>
+        </section> */}
 
         <section className="page-section" id="contact">
           <div className="container">
