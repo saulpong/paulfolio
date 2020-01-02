@@ -60,10 +60,10 @@ export default class Layout extends React.Component {
         id="page-top">
         <Header/>
         <main>{this.props.children}</main>
-        <footer className="py-3">
-          <div className="container">
-            <div className="small text-center">Copyright &copy; {new Date().getFullYear()} - Start Bootstrap & Paul Song</div>
-          </div>
+        <footer className="py-4 page-footer bg-primary">
+          {/* <div className="container"> */}
+            <div className="small text-center text-white-75">Copyright &copy; {new Date().getFullYear()} - Paul Song</div>
+          {/* </div> */}
         </footer>
       </div>
     )

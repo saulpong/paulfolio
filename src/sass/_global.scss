@@ -6,6 +6,11 @@ html {
 	width: 100%;
 }
 
+// Background colours
+.bg-black {
+	background-color: $grey;
+}
+
 // Typography
 .text-white-75 {
 	color: fade-out($white, .25);
@@ -48,4 +53,14 @@ hr.light {
 
 .modal-backdrop.show {
 	opacity: 0.8;
+}
+
+// Links
+a {
+	transition: color 0.4s ease;
+}
+
+// Buttons
+.btn {
+	transition: background-color 0.4s ease;
 }

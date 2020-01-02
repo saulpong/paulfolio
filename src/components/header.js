@@ -13,11 +13,11 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
+        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-2" id="mainNav" expand="lg"
                 collapseOnSelect={true}>
           <div className="container">
             <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>
-              <img src={logo} alt={'Paul Song logo'} style={{ height: 30, width: 30 }} />
+              <img src={logo} alt={'Paul Song logo'} style={{ height: 40, width: 40 }} />&nbsp;&nbsp;Paul Song
             </a>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
@@ -47,7 +47,7 @@ export default class Header extends React.Component {
             <div className="row h-100 align-items-center justify-content-center text-center">
               <div className="col-lg-10 align-self-end">
                 <h1 className="text-uppercase text-white font-weight-bold">
-                  Paul Song
+                  Hi, I'm Paul
                 </h1>
                 <hr className="divider my-4"/>
               </div>
@@ -55,7 +55,9 @@ export default class Header extends React.Component {
                 <p className="text-white-75 font-weight-light mb-5">
                   I like to make 3D models, animations and music!
                 </p>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio" onClick={Scroller.handleAnchorScroll}>V</a>
+                <a className="btn js-scroll-trigger" href="#portfolio" onClick={Scroller.handleAnchorScroll}>
+                  <i class="fas fa-chevron-down text-white"></i>
+                </a>
               </div>
             </div>
           </div>

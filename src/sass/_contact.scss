@@ -1,7 +1,19 @@
 #contact {
-	background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../images/slidy-paul.jpg');
-	background-position: top;
+	background: linear-gradient(to bottom, #{fade-out($grey, .3)} 0%,#{fade-out($grey, .3)} 100%), url('../images/standing-paul.jpg');
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+
+	min-height: 80vh;
+
+	a {
+	color: $white;
+	
+		&:hover,
+		&:active {
+			color: $primary;
+			text-decoration: none;
+		}
+	}
 }
