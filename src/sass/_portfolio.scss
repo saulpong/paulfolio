@@ -6,6 +6,8 @@
 			position: relative;
 			display: block;
 			margin: 0.2rem;
+
+			border: solid $grey .3rem;
 			.portfolio-box-caption {
 				display: flex;
 				align-items: center;
