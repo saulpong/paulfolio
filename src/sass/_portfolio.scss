@@ -2,10 +2,11 @@
 #portfolio {
 	.container-fluid {
 		max-width: 1920px;
+		padding: 1rem;
 		.portfolio-box {
 			position: relative;
 			display: block;
-			margin: 3px;
+			margin: 0.2rem;
 			.portfolio-box-caption {
 				display: flex;
 				align-items: center;

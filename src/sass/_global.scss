@@ -1,8 +1,9 @@
 // Global styling for this template
 body,
 html {
-	width: 100%;
+	background-color: $light;
 	height: 100%;
+	width: 100%;
 }
 
 // Typography
@@ -37,7 +38,7 @@ hr.light {
 
 // Page section padding
 .page-section {
-	padding: 8rem 0;
+	padding: 5rem 0;
 }
 
 // Modal

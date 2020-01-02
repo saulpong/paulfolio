@@ -4,7 +4,7 @@
 
 // Set a custom color
 $orange: #2d98c9 !default;
-$brown: #505a7cca !default;
+$brown: #505a7cdc !default;
 
 // Set primary color to orange
 $primary: $orange !default;
@@ -14,7 +14,7 @@ $font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
 
 $font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
-$font-family-base: $font-family-serif !default;
+$font-family-base: $font-family-sans-serif !default;
 
 $headings-font-family: $font-family-sans-serif !default;
 

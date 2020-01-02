@@ -47,7 +47,7 @@ export default class Header extends React.Component {
             <div className="row h-100 align-items-center justify-content-center text-center">
               <div className="col-lg-10 align-self-end">
                 <h1 className="text-uppercase text-white font-weight-bold">
-                  Hi, I'm Paul
+                  Paul Song
                 </h1>
                 <hr className="divider my-4"/>
               </div>
