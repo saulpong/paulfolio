@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                 <p className="text-white-75 font-weight-light mb-5">
                   I like to make 3D models, animations and music!
                 </p>
-                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Find Out More</a>
+                <a className="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio" onClick={Scroller.handleAnchorScroll}>V</a>
               </div>
             </div>
           </div>
