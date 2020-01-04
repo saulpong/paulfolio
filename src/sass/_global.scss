@@ -23,6 +23,11 @@ hr.divider {
 	border-color: $primary;
 }
 
+hr.dividerzoom {
+	max-width: 30rem;
+	border-width: 0.2rem;
+	border-color: $white;
+}
 hr.light {
 	border-color: $white;
 }

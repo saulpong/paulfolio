@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-
+import Fade from 'react-reveal/Fade';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Scroller from "../components/scroller"
@@ -130,16 +130,18 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
+                <Fade>
                 <img src={PaulSong} alt={'Paul Song'} id={'profile-image'} />
                 <h2 className="mt-0">
                   Hi, I'm Paul
                 </h2>
                 <hr className="divider my-4"/>
                 <p className="text-muted mb-4">
-                  Born in Seoul and raised in Vancouver, I enjoy making projects come to life.
-                  Music with synthesizers, electronics with microcontrollers, and vast worlds with 3D modeling.
+                  Born in Seoul and raised in Vancouver, I enjoy making projects come to life.<br></br>
+                  Vast worlds with 3D modeling, Music with synthesizers, and Electronics with microcontrollers.<br></br>
                   After getting a taste of VFX at Intersections Media, I'm passionate about making it my career.
                 </p>
+                </Fade>
                 <a className="btn btn-primary btn-xl" href="#page-top"
                   onClick={Scroller.handleAnchorScroll}>Resume</a>
               </div>
@@ -162,13 +164,17 @@ export default class IndexPage extends React.Component {
             </div>
             <div className="row justify-content-center">
               <div className="col-sm text-center mb-5 mb-lg-4" style={{ flexGrow: 0.2, }}>
+                <a className="d-block" href="mailto:contact@paulsong.live">
                 <i className="fas fa-envelope fa-3x mb-3 text-white"></i>
-                <a className="d-block" href="mailto:meltypan@gmail.com">
-                  meltypan@gmail.com
+                </a>
+                <a className="d-block" href="mailto:contact@paulsong.live">
+                  contact@paulsong.live
                 </a>
               </div>
               <div className="col-sm text-center mb-5 mb-lg-4" style={{ flexGrow: 0.2, }}>
+                <a className="d-block" href="https://www.instagram.com/revonrev">
                 <i className="fab fa-instagram fa-3x mb-3 text-white"></i>
+                </a>
                 <a className="d-block" href="https://www.instagram.com/revonrev">
                   @revonrev
                 </a>

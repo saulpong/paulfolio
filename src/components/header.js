@@ -1,4 +1,7 @@
 import React from "react"
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import Scrollspy from "react-scrollspy"
 import { Navbar, Nav } from "react-bootstrap"
 import Scroller from './scroller'
@@ -46,15 +49,30 @@ export default class Header extends React.Component {
           <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
               <div className="col-lg-10 align-self-end">
+              <Fade duration={4000}>
+              <Slide left duration={2000}>
+                <hr className="dividerzoom my-3" />
+              </Slide>
+              </Fade>
+              <Fade>
+              <Zoom>
                 <h1 className="text-uppercase text-white font-weight-bold">
-                  Hi, I'm Paul
+                  Paul Song
                 </h1>
-                <hr className="divider my-4"/>
+              </Zoom>
+              </Fade>
+              <Fade duration={4000}>
+              <Slide right duration={2000}>
+                <hr className="dividerzoom my-3" />
+              </Slide>
+              </Fade>
               </div>
               <div className="col-lg-8 align-self-baseline">
+              <Fade bottom delay={1000}>
                 <p className="text-white-75 font-weight-light mb-5">
                   I like to make 3D models, animations and music!
                 </p>
+              </Fade>
                 <a className="btn js-scroll-trigger" href="#portfolio" onClick={Scroller.handleAnchorScroll}>
                   <i class="fas fa-chevron-down text-white"></i>
                 </a>
